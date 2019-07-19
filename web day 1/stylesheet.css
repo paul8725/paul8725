@@ -1,0 +1,40 @@
+ul{
+    padding: 0;
+    list-style: none;
+    background: black;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+     text-align:left;
+}
+ul li a{
+    display:block;
+    padding: 8px 25px;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: white;
+    background: grey;
+}
+ul li ul.dropdown{
+    min-width: 125px;
+    background: black; 
+    display: none;
+    position: absolute;
+    left: 0;
+}
+ul li:hover ul.dropdown{ 
+    display: block;
+    
+}
+ul li ul.dropdown li {
+    display: block;
+}
+#footer{ 
+background: black;
+text-align: center;
+color: yellow;
+padding: 5px;}
